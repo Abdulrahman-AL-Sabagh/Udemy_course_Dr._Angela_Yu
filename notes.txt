@@ -1,0 +1,11 @@
+to install a react_App and run it
+----------------------------------------------------------------
+npx create-react-app my-app
+cd my-app
+npm start
+---------------------------------------------------------------
+Props
+make function that retuns the the wished elements
+add properties to the generated react elements
+add parameter to the element function calls props
+use the keys in the props values inside the html tag

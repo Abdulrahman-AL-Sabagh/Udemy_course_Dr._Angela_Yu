@@ -9,6 +9,7 @@ mongoose.connect("mongodb://localhost:27017/wikiDB")
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static("public"))
 app.listen(port, () => {
+    console.log("app is runnig on  port 3000/articles to edit something => 3000/articles/:title")
 
 })
 const articleSchema = mongoose.Schema({
